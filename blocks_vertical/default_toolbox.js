@@ -30,7 +30,7 @@ goog.require('Blockly.Blocks');
 
 Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: none">'+
   '<category name="Motion" colour="#4C97FF" secondaryColour="#3373CC">'+
-    '<block type="motion_movesteps" id="motion_movesteps">'+
+    /* '<block type="motion_movesteps" id="motion_movesteps">'+
       '<value name="STEPS">'+
         '<shadow type="math_number">'+
           '<field name="NUM">10</field>'+
@@ -142,72 +142,10 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
     '<block type="motion_setrotationstyle" id="motion_setrotationstyle"></block>'+
     '<block type="motion_xposition" id="motion_xposition"></block>'+
     '<block type="motion_yposition" id="motion_yposition"></block>'+
-    '<block type="motion_direction" id="motion_direction"></block>'+
-  '</category>'+
-  '<category name="Looks" colour="#9966FF" secondaryColour="#774DCB">'+
-    '<block type="looks_show" id="looks_show"></block>'+
-    '<block type="looks_hide" id="looks_hide"></block>'+
-    '<block type="looks_switchcostumeto" id="looks_switchcostumeto">'+
-      '<value name="COSTUME">'+
-        '<shadow type="looks_costume"></shadow>'+
-      '</value>'+
-    '</block>'+
-    '<block type="looks_nextcostume" id="looks_nextcostume"></block>'+
-    '<block type="looks_nextbackdrop" id="looks_nextbackdrop"></block>'+
-    '<block type="looks_switchbackdropto" id="looks_switchbackdropto">'+
-      '<value name="BACKDROP">'+
-        '<shadow type="looks_backdrops"></shadow>'+
-      '</value>'+
-    '</block>'+
-    '<block type="looks_switchbackdroptoandwait" id="looks_switchbackdroptoandwait">'+
-      '<value name="BACKDROP">'+
-        '<shadow type="looks_backdrops"></shadow>'+
-      '</value>'+
-    '</block>'+
-    '<block type="looks_changeeffectby" id="looks_changeeffectby">'+
-      '<value name="CHANGE">'+
-        '<shadow type="math_number">'+
-          '<field name="NUM">10</field>'+
-        '</shadow>'+
-      '</value>'+
-    '</block>'+
-    '<block type="looks_seteffectto" id="looks_seteffectto">'+
-      '<value name="VALUE">'+
-        '<shadow type="math_number">'+
-          '<field name="NUM">10</field>'+
-        '</shadow>'+
-      '</value>'+
-    '</block>'+
-    '<block type="looks_cleargraphiceffects" id="looks_cleargraphiceffects"></block>'+
-    '<block type="looks_changesizeby" id="looks_changesizeby">'+
-      '<value name="CHANGE">'+
-        '<shadow type="math_number">'+
-          '<field name="NUM">10</field>'+
-        '</shadow>'+
-      '</value>'+
-    '</block>'+
-    '<block type="looks_setsizeto" id="looks_setsizeto">'+
-      '<value name="SIZE">'+
-        '<shadow type="math_number">'+
-          '<field name="NUM">100</field>'+
-        '</shadow>'+
-      '</value>'+
-    '</block>'+
-    '<block type="looks_gotofront" id="looks_gotofront"></block>'+
-    '<block type="looks_gobacklayers" id="looks_gobacklayers">'+
-      '<value name="NUM">'+
-        '<shadow type="math_integer">'+
-          '<field name="NUM">1</field>'+
-        '</shadow>'+
-      '</value>'+
-    '</block>'+
-    '<block type="looks_costumeorder" id="looks_costumeorder"></block>'+
-    '<block type="looks_backdroporder" id="looks_backdroporder"></block>'+
-    '<block type="looks_backdropname" id="looks_backdropname"></block>'+
-    '<block type="looks_size" id="looks_size"></block>'+
+    '<block type="motion_direction" id="motion_direction"></block>'+ */
   '</category>'+
   '<category name="Sound" colour="#D65CD6" secondaryColour="#BD42BD">'+
-    '<block type="sound_play" id="sound_play">'+
+    /* '<block type="sound_play" id="sound_play">'+
       '<value name="SOUND_MENU">'+
         '<shadow type="sound_sounds_menu"></shadow>'+
       '</value>'+
@@ -296,15 +234,12 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
         '</shadow>'+
       '</value>'+
     '</block>'+
-    '<block type="sound_tempo" id="sound_tempo"></block>'+
+    '<block type="sound_tempo" id="sound_tempo"></block>'+ */
   '</category>'+
   '<category name="Events" colour="#FFD500" secondaryColour="#CC9900">'+
     '<block type="event_whenflagclicked" id="event_whenflagclicked"></block>'+
-    '<block type="event_whenkeypressed" id="event_whenkeypressed">'+
-    '</block>'+
-    '<block type="event_whenthisspriteclicked" id="event_whenthisspriteclicked"></block>'+
-    '<block type="event_whenbackdropswitchesto" id="event_whenbackdropswitchesto">'+
-    '</block>'+
+    /* '<block type="event_whenkeypressed" id="event_whenkeypressed">'+
+    '</block>'+ */
     '<block type="event_whengreaterthan" id="event_whengreaterthan">'+
       '<value name="VALUE">'+
         '<shadow type="math_number">'+
@@ -355,7 +290,7 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
     '<block type="control_delete_this_clone" id="control_delete_this_clone"></block>'+
   '</category>'+
   '<category name="Sensing" colour="#4CBFE6" secondaryColour="#2E8EB8">'+
-    '<block type="sensing_touchingobject" id="sensing_touchingobject">'+
+    /* '<block type="sensing_touchingobject" id="sensing_touchingobject">'+
       '<value name="TOUCHINGOBJECTMENU">'+
         '<shadow type="sensing_touchingobjectmenu"></shadow>'+
       '</value>'+
@@ -402,75 +337,7 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
         '<shadow type="sensing_currentmenu"></shadow>'+
       '</value>'+
     '</block>'+
-    '<block type="sensing_dayssince2000" id="sensing_dayssince2000"></block>'+
-  '</category>'+
-  '<category name="Pen" colour="#00B295" secondaryColour="#0B8E69">'+
-    '<block type="pen_clear" id="pen_clear"></block>'+
-    '<block type="pen_stamp" id="pen_stamp"></block>'+
-    '<block type="pen_pendown" id="pen_pendown"></block>'+
-    '<block type="pen_penup" id="pen_penup"></block>'+
-    '<block type="pen_setpencolortocolor" id="pen_setpencolortocolor">'+
-      '<value name="COLOR">'+
-        '<shadow type="colour_picker">'+
-        '</shadow>'+
-      '</value>'+
-    '</block>'+
-    '<block type="pen_changepencolorby" id="pen_changepencolorby">'+
-      '<value name="COLOR">'+
-        '<shadow type="math_number">'+
-          '<field name="NUM">10</field>'+
-        '</shadow>'+
-      '</value>'+
-    '</block>'+
-    '<block type="pen_setpencolortonum" id="pen_setpencolortonum">'+
-      '<value name="COLOR">'+
-        '<shadow type="math_number">'+
-          '<field name="NUM">0</field>'+
-        '</shadow>'+
-      '</value>'+
-    '</block>'+
-    '<block type="pen_changepenshadeby" id="pen_changepenshadeby">'+
-      '<value name="SHADE">'+
-        '<shadow type="math_number">'+
-          '<field name="NUM">10</field>'+
-        '</shadow>'+
-      '</value>'+
-    '</block>'+
-    '<block type="pen_setpenshadeto" id="pen_setpenshadeto">'+
-      '<value name="SHADE">'+
-        '<shadow type="math_number">'+
-          '<field name="NUM">50</field>'+
-        '</shadow>'+
-      '</value>'+
-    '</block>'+
-    '<block type="pen_changepensizeby" id="pen_changepensizeby">'+
-      '<value name="SIZE">'+
-        '<shadow type="math_number">'+
-          '<field name="NUM">1</field>'+
-        '</shadow>'+
-      '</value>'+
-    '</block>'+
-    '<block type="pen_setpensizeto" id="pen_setpensizeto">'+
-      '<value name="SIZE">'+
-        '<shadow type="math_number">'+
-          '<field name="NUM">1</field>'+
-        '</shadow>'+
-      '</value>'+
-    '</block>'+
-    '<block type="pen_changepentransparencyby" id="pen_changepentransparencyby">'+
-      '<value name="TRANSPARENCY">'+
-        '<shadow type="math_number">'+
-          '<field name="NUM">10</field>'+
-        '</shadow>'+
-      '</value>'+
-    '</block>'+
-    '<block type="pen_setpentransparencyto" id="pen_setpentransparencyto">'+
-      '<value name="TRANSPARENCY">'+
-        '<shadow type="math_number">'+
-          '<field name="NUM">50</field>'+
-        '</shadow>'+
-      '</value>'+
-    '</block>'+
+    '<block type="sensing_dayssince2000" id="sensing_dayssince2000"></block>'+ */
   '</category>'+
   '<category name="Operators" colour="#40BF4A" secondaryColour="#389438">'+
     '<block type="operator_add" id="operator_add">'+
