@@ -34,9 +34,35 @@ Blockly.Blocks['services_hello'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "say \"hello\"",
-      "args0": [
-      ],
+      "message0": "Отправить \"hello\"",
+      "category": Blockly.Categories.looks,
+      "extensions": ["colours_looks", "shape_statement"]
+    });
+  }
+};
+
+Blockly.Blocks['services_state'] = {
+  /**
+   * Block to say for some time.
+   * @this Blockly.Block
+   */
+  init: function() {
+    this.jsonInit({
+      "message0": "Запросить состояние робота",
+      "category": Blockly.Categories.looks,
+      "extensions": ["colours_looks", "shape_statement"]
+    });
+  }
+};
+
+Blockly.Blocks['services_lastcycle'] = {
+  /**
+   * Block to say for some time.
+   * @this Blockly.Block
+   */
+  init: function() {
+    this.jsonInit({
+      "message0": "Время выполнения последнего цикла",
       "category": Blockly.Categories.looks,
       "extensions": ["colours_looks", "shape_statement"]
     });
