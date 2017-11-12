@@ -140,7 +140,7 @@ Blockly.Blocks['motion_set'] = {
     .appendField('Сервопривод')
     .appendField(servDropdown, 'SERV_OPTION')
     .appendField('перевести в позицию')
-    .appendField(new Blockly.FieldAngle(90), 'POSITION');
+    .appendField(new Blockly.FieldNumber('0'), 'POSITION');
     this.setCategory(Blockly.Categories.motion);
     this.setColour(Blockly.Colours.motion.primary,
       Blockly.Colours.motion.secondary,

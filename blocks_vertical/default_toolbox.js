@@ -180,54 +180,6 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
     '<block type="control_delete_this_clone" id="control_delete_this_clone"></block>'+
   '</category>'+
   '<category name="Sensing" colour="#4CBFE6" secondaryColour="#2E8EB8">'+
-    '<block type="sensing_touchingobject" id="sensing_touchingobject">'+
-      '<value name="TOUCHINGOBJECTMENU">'+
-        '<shadow type="sensing_touchingobjectmenu"></shadow>'+
-      '</value>'+
-    '</block>'+
-    '<block type="sensing_touchingcolor" id="sensing_touchingcolor">'+
-      '<value name="COLOR">'+
-        '<shadow type="colour_picker"></shadow>'+
-      '</value>'+
-    '</block>'+
-    '<block type="sensing_coloristouchingcolor" id="sensing_coloristouchingcolor">'+
-      '<value name="COLOR">'+
-        '<shadow type="colour_picker"></shadow>'+
-      '</value>'+
-      '<value name="COLOR2">'+
-        '<shadow type="colour_picker"></shadow>'+
-      '</value>'+
-    '</block>'+
-    '<block type="sensing_distanceto" id="sensing_distanceto">'+
-      '<value name="DISTANCETOMENU">'+
-        '<shadow type="sensing_distancetomenu"></shadow>'+
-      '</value>'+
-    '</block>'+
-    '<block type="sensing_keypressed" id="sensing_keypressed">'+
-        '<value name="KEY_OPTION">'+
-          '<shadow type="sensing_keyoptions"></shadow>'+
-        '</value>'+
-    '</block>'+
-    '<block type="sensing_mousedown" id="sensing_mousedown"></block>'+
-    '<block type="sensing_mousex" id="sensing_mousex"></block>'+
-    '<block type="sensing_mousey" id="sensing_mousey"></block>'+
-    '<block type="sensing_loudness" id="sensing_loudness"></block>'+
-    '<block type="sensing_timer" id="sensing_timer"></block>'+
-    '<block type="sensing_resettimer" id="sensing_resettimer"></block>'+
-    '<block type="sensing_of" id="sensing_of">'+
-      '<value name="PROPERTY">'+
-        '<shadow type="sensing_of_property_menu"></shadow>'+
-      '</value>'+
-      '<value name="OBJECT">'+
-        '<shadow type="sensing_of_object_menu"></shadow>'+
-      '</value>'+
-    '</block>'+
-    '<block type="sensing_current" id="sensing_current">'+
-      '<value name="CURRENTMENU">'+
-        '<shadow type="sensing_currentmenu"></shadow>'+
-      '</value>'+
-    '</block>'+
-    '<block type="sensing_dayssince2000" id="sensing_dayssince2000"></block>'+
   '</category>'+
   '<category name="Pen" colour="#00B295" secondaryColour="#0B8E69">'+
     '<block type="pen_clear" id="pen_clear"></block>'+
